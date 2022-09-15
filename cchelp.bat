@@ -16,6 +16,9 @@ if "%~1" == "git" (
     echo gitingr [profile] [commit reason] [branch] [release branch name]
     echo gitingre [profile] [commit reason] [branch] [release branch name]
     echo   =^> it auto kill cmd process at the end
+    echo gitinit [profile] [remote] [main branch name]
+    echo gitinite [profile] [remote] [main branch name]
+    echo   =^> it auto kill cmd process at the end
     echo.
     goto a
 )
