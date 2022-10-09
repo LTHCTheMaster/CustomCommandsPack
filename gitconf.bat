@@ -1,11 +1,8 @@
 @echo off
 
-if "%~1" == "perso" (
-	call "C:\custom_commands\gitconfigurator\perso.bat"
-	goto a
-)
-if "%~1" == "univ" (
-	call "C:\custom_commands\gitconfigurator\univ.bat"
+
+if "%~1" == "example" (
+	call "C:\custom_commands\gitconfigurator\example.bat"
 	goto a
 )
 
